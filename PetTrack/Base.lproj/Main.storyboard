@@ -344,8 +344,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I2Y-wx-cPX">
                                 <rect key="frame" x="20" y="98" width="374" height="643"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="X7c-WW-mGV">
-                                        <rect key="frame" x="5" y="5" width="364" height="613"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="X7c-WW-mGV">
+                                        <rect key="frame" x="5" y="5" width="364" height="515"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fqh-QP-vbT">
                                                 <rect key="frame" x="0.0" y="0.0" width="364" height="50"/>
@@ -357,25 +357,25 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Fy-hq-qDd">
-                                                <rect key="frame" x="0.0" y="74" width="364" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="60" width="364" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet Age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBq-kg-RwG">
-                                                <rect key="frame" x="0.0" y="118.5" width="364" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="90.5" width="364" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet Race" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xd8-RF-4nE">
-                                                <rect key="frame" x="0.0" y="163" width="364" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="121" width="364" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOL-JA-QSL">
-                                                <rect key="frame" x="0.0" y="207.5" width="364" height="83.5"/>
+                                                <rect key="frame" x="0.0" y="151.5" width="364" height="83.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="PEl-ev-yhR"/>
                                                 </constraints>
@@ -384,7 +384,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Visit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLq-cb-DPV">
-                                                <rect key="frame" x="0.0" y="315" width="364" height="50"/>
+                                                <rect key="frame" x="0.0" y="245" width="364" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="qdg-yL-yDc"/>
                                                 </constraints>
@@ -393,7 +393,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medical Data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exD-XH-AYN">
-                                                <rect key="frame" x="0.0" y="389" width="364" height="150"/>
+                                                <rect key="frame" x="0.0" y="305" width="364" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="aT7-wv-pxU"/>
                                                 </constraints>
@@ -402,7 +402,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EsK-u4-Thy">
-                                                <rect key="frame" x="0.0" y="563" width="364" height="50"/>
+                                                <rect key="frame" x="0.0" y="465" width="364" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="e8j-f1-bQU"/>
                                                 </constraints>
@@ -971,8 +971,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eC5-5b-9aI">
                                 <rect key="frame" x="20" y="280" width="374" height="379"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="aJv-Cl-fS1">
-                                        <rect key="frame" x="5" y="5" width="364" height="331"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="aJv-Cl-fS1">
+                                        <rect key="frame" x="5" y="5" width="364" height="291"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPn-pV-QC9">
                                                 <rect key="frame" x="0.0" y="0.0" width="364" height="50"/>
@@ -984,26 +984,26 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZa-dW-b67">
-                                                <rect key="frame" x="0.0" y="90" width="364" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="80" width="364" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer Email" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gbs-aB-22t">
-                                                <rect key="frame" x="0.0" y="150.5" width="364" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="130.5" width="364" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVH-1k-vT2">
-                                                <rect key="frame" x="0.0" y="211" width="364" height="30"/>
+                                                <rect key="frame" x="0.0" y="181" width="364" height="30"/>
                                                 <state key="normal" title="Remove Customer"/>
                                                 <connections>
                                                     <action selector="onRemovePress:" destination="feq-46-42N" eventType="touchUpInside" id="rRb-22-WWq"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdM-si-9kD">
-                                                <rect key="frame" x="0.0" y="281" width="364" height="50"/>
+                                                <rect key="frame" x="0.0" y="241" width="364" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="IAE-5s-WXw"/>
                                                 </constraints>
@@ -1060,8 +1060,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pr2-En-F21">
                                 <rect key="frame" x="20" y="124" width="374" height="667"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="DS4-Us-KIU">
-                                        <rect key="frame" x="5" y="5" width="364" height="641.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DS4-Us-KIU">
+                                        <rect key="frame" x="5" y="5" width="364" height="521.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FDS-Uf-SU0">
                                                 <rect key="frame" x="0.0" y="0.0" width="364" height="50"/>
@@ -1073,25 +1073,25 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="De4-uy-3Yk">
-                                                <rect key="frame" x="0.0" y="75" width="364" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="60" width="364" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet Age" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDN-yl-27M">
-                                                <rect key="frame" x="0.0" y="120.5" width="364" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="90.5" width="364" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet Race" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYH-q5-0Eu">
-                                                <rect key="frame" x="0.0" y="166" width="364" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="121" width="364" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pet Color" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkj-mB-c6W">
-                                                <rect key="frame" x="0.0" y="211.5" width="364" height="50"/>
+                                                <rect key="frame" x="0.0" y="151.5" width="364" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="Oqx-cz-E9y"/>
                                                 </constraints>
@@ -1100,7 +1100,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Visit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjA-Ap-nAQ">
-                                                <rect key="frame" x="0.0" y="286.5" width="364" height="50"/>
+                                                <rect key="frame" x="0.0" y="211.5" width="364" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="qhK-S7-EAV"/>
                                                 </constraints>
@@ -1109,7 +1109,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Medical Data" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nlk-FJ-ryr">
-                                                <rect key="frame" x="0.0" y="361.5" width="364" height="150"/>
+                                                <rect key="frame" x="0.0" y="271.5" width="364" height="150"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="crh-nB-IB1"/>
                                                 </constraints>
@@ -1118,7 +1118,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9b1-yX-B9H">
-                                                <rect key="frame" x="0.0" y="536.5" width="364" height="30"/>
+                                                <rect key="frame" x="0.0" y="431.5" width="364" height="30"/>
                                                 <state key="normal" title="Edit"/>
                                                 <connections>
                                                     <action selector="onEditPress:" destination="BzA-lA-9fX" eventType="touchUpInside" id="Cd0-A9-syu"/>
@@ -1126,7 +1126,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4I-eF-HOA">
-                                                <rect key="frame" x="0.0" y="591.5" width="364" height="50"/>
+                                                <rect key="frame" x="0.0" y="471.5" width="364" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="aYj-2I-vhx"/>
                                                 </constraints>

@@ -20,6 +20,13 @@ class CustomerProfileController: UIViewController {
         email = Utilities.getEmailFromPhone()
         db = Firestore.firestore()
         
+    }
+    //MARK: Update Data
+    override func viewWillAppear(_ animated: Bool) {
+        loadData()
+    }
+    
+    func loadData() {
         db.collection("users").document(email).getDocument { result, err in
             if err != nil {
                 print("Error getting documents")
@@ -40,9 +47,7 @@ class CustomerProfileController: UIViewController {
                 }
             }
         }
-        
     }
-    
     
     @IBAction func onAddpressed(_ sender: Any) {
     }
